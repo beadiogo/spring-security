@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>spring.security.login.auth.api.controllers.AuthController</OriginalElement>
+  <nodes>
+    <node x="471.2993113491487" y="-13.76564515559653">org.springframework.web.bind.annotation.RequestMapping</node>
+    <node x="404.10925884967384" y="321.5481916242387">org.springframework.web.bind.annotation.RestController</node>
+    <node x="93.81220934314763" y="135.58739962581276">lombok.RequiredArgsConstructor</node>
+    <node x="-110.49511620679056" y="314.1638422296551">spring.security.login.auth.api.controllers.AuthController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="spring.security.login.auth.api.controllers.AuthController" target="org.springframework.web.bind.annotation.RequestMapping" relationship="REALIZATION">
+      <point x="-40.192674450061816" y="-56.0" />
+      <point x="76.31220934314763" y="101.73435484440347" />
+      <point x="-109.5" y="0.0" />
+    </edge>
+    <edge source="spring.security.login.auth.api.controllers.AuthController" target="lombok.RequiredArgsConstructor" relationship="REALIZATION">
+      <point x="106.30732554993818" y="-56.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="spring.security.login.auth.api.controllers.AuthController" target="org.springframework.web.bind.annotation.RestController" relationship="REALIZATION">
+      <point x="227.0" y="-17.115650605416363" />
+      <point x="-82.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8633405639913232" showDependencies="true" x="299.99999999999994" y="216.5" />
+  <SelectedNodes>
+    <node>lombok.RequiredArgsConstructor</node>
+    <node>org.springframework.web.bind.annotation.RequestMapping</node>
+    <node>spring.security.login.auth.api.controllers.AuthController</node>
+    <node>org.springframework.web.bind.annotation.RestController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>spring.security.login.auth.api.infra.security.SecurityConfig</OriginalElement>
+  <nodes>
+    <node x="153.0" y="-13.5">org.springframework.context.annotation.Configuration</node>
+    <node x="-100.5" y="294.0">spring.security.login.auth.api.infra.security.SecurityConfig</node>
+    <node x="20.5" y="130.5">org.springframework.security.config.annotation.web.configuration.EnableWebSecurity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="spring.security.login.auth.api.infra.security.SecurityConfig" target="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity" relationship="REALIZATION">
+      <point x="0.0" y="-68.0" />
+      <point x="162.0" y="222.0" />
+      <point x="122.0" y="222.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="spring.security.login.auth.api.infra.security.SecurityConfig" target="org.springframework.context.annotation.Configuration" relationship="REALIZATION">
+      <point x="0.0" y="-68.0" />
+      <point x="162.0" y="222.0" />
+      <point x="282.0" y="222.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8793103448275862" showDependencies="true" x="172.0" y="218.0" />
+  <SelectedNodes>
+    <node>org.springframework.context.annotation.Configuration</node>
+    <node>spring.security.login.auth.api.infra.security.SecurityConfig</node>
+    <node>org.springframework.security.config.annotation.web.configuration.EnableWebSecurity</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

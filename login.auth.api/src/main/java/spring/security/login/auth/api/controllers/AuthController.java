@@ -16,6 +16,9 @@ import spring.security.login.auth.api.repositories.UserRepository;
 
 import java.util.Optional;
 
+/**
+ * Controlador para autenticação e registro de usuários.
+ */
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
@@ -24,6 +27,11 @@ public class AuthController {
     private final PasswordEncoder passwordEncoder;
     private final TokenService tokenService;
 
+    /**
+     * Endpoint para autenticar um usuário.
+     * @param body O objeto de solicitação de login contendo e-mail e senha.
+     * @return ResponseEntity contendo um token JWT se a autenticação for bem-sucedida, ou um ResponseEntity de erro se falhar.
+     */
     @PostMapping("/login")
     public ResponseEntity login(@RequestBody LoginRequestDTO body){
         User user = this.repository.findByEmail(body.email()).orElseThrow(() -> new RuntimeException("User not found."));
@@ -34,6 +42,11 @@ public class AuthController {
         return ResponseEntity.badRequest().build();
     }
 
+    /**
+     * Endpoint para registrar um novo usuário.
+     * @param body O objeto de solicitação de registro contendo e-mail, senha e nome do usuário.
+     * @return ResponseEntity contendo um token JWT e informações do usuário registrado se o registro for bem-sucedido, ou um ResponseEntity de erro se falhar.
+     */
     @PostMapping("/register")
     public ResponseEntity register(@RequestBody RegisterRequestDTO body){
         Optional<User> user = this.repository.findByEmail(body.email());

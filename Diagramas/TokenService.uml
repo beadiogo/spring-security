@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>spring.security.login.auth.api.infra.security.TokenService</OriginalElement>
+  <nodes>
+    <node x="-17.5" y="-13.5">org.springframework.stereotype.Service</node>
+    <node x="-77.5" y="150.0">spring.security.login.auth.api.infra.security.TokenService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="spring.security.login.auth.api.infra.security.TokenService" target="org.springframework.stereotype.Service" relationship="REALIZATION">
+      <point x="0.0" y="-68.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.275" showDependencies="true" x="58.99999999999994" y="145.99999999999997" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

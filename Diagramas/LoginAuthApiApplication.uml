@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>spring.security.login.auth.api.LoginAuthApiApplication</OriginalElement>
+  <nodes>
+    <node x="-68.0" y="274.0">spring.security.login.auth.api.LoginAuthApiApplication</node>
+    <node x="-118.5" y="-13.5">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="spring.security.login.auth.api.LoginAuthApiApplication" target="org.springframework.boot.autoconfigure.SpringBootApplication" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.005050505050505" showDependencies="true" x="61.99999999999994" y="184.0" />
+  <SelectedNodes>
+    <node>org.springframework.boot.autoconfigure.SpringBootApplication</node>
+    <node>spring.security.login.auth.api.LoginAuthApiApplication</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

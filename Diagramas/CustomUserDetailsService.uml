@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>spring.security.login.auth.api.infra.security.CustomUserDetailsService</OriginalElement>
+  <nodes>
+    <node x="-128.2672061995077" y="-13.464023504899927">org.springframework.stereotype.Component</node>
+    <node x="74.43475919473426" y="-0.4336396844293233">org.springframework.security.core.userdetails.UserDetailsService</node>
+    <node x="20.152214972181383" y="154.96162434632302">spring.security.login.auth.api.infra.security.CustomUserDetailsService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="spring.security.login.auth.api.infra.security.CustomUserDetailsService" target="org.springframework.stereotype.Component" relationship="REALIZATION">
+      <point x="-153.0" y="0.0" />
+      <point x="-57.26720619950771" y="198.96162434632302" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="spring.security.login.auth.api.infra.security.CustomUserDetailsService" target="org.springframework.security.core.userdetails.UserDetailsService" relationship="REALIZATION">
+      <point x="54.28254422255287" y="-44.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.4368231046931408" showDependencies="false" x="136.0" y="124.50000000000001" />
+  <SelectedNodes>
+    <node>org.springframework.stereotype.Component</node>
+    <node>spring.security.login.auth.api.infra.security.CustomUserDetailsService</node>
+    <node>org.springframework.security.core.userdetails.UserDetailsService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

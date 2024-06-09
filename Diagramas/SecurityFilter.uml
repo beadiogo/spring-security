@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>spring.security.login.auth.api.infra.security.SecurityFilter</OriginalElement>
+  <nodes>
+    <node x="95.0" y="413.5">org.springframework.web.filter.GenericFilterBean</node>
+    <node x="925.0" y="228.5">org.springframework.beans.factory.DisposableBean</node>
+    <node x="-109.5" y="1443.5">spring.security.login.auth.api.infra.security.SecurityFilter</node>
+    <node x="-78.0" y="1288.5">org.springframework.stereotype.Component</node>
+    <node x="788.5" y="108.5">org.springframework.context.EnvironmentAware</node>
+    <node x="-37.0" y="-14.0">org.springframework.beans.factory.Aware</node>
+    <node x="671.5" y="228.5">org.springframework.beans.factory.InitializingBean</node>
+    <node x="60.5" y="108.5">org.springframework.beans.factory.BeanNameAware</node>
+    <node x="527.0" y="108.5">org.springframework.core.env.EnvironmentCapable</node>
+    <node x="184.0" y="204.5">jakarta.servlet.Filter</node>
+    <node x="-105.0" y="228.5">org.springframework.web.context.ServletContextAware</node>
+    <node x="10.0" y="946.5">org.springframework.web.filter.OncePerRequestFilter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.web.filter.GenericFilterBean" target="org.springframework.context.EnvironmentAware" relationship="REALIZATION">
+      <point x="0.0" y="-226.5" />
+      <point x="233.0" y="340.0" />
+      <point x="893.0" y="340.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.BeanNameAware" target="org.springframework.beans.factory.Aware" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="153.0" y="80.0" />
+      <point x="13.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.filter.GenericFilterBean" target="jakarta.servlet.Filter" relationship="REALIZATION">
+      <point x="0.0" y="-226.5" />
+      <point x="233.0" y="340.0" />
+      <point x="393.0" y="340.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="spring.security.login.auth.api.infra.security.SecurityFilter" target="org.springframework.stereotype.Component" relationship="REALIZATION">
+      <point x="-111.25" y="-56.5" />
+      <point x="1.75" y="1420.0" />
+      <point x="-7.0" y="1420.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="org.springframework.web.context.ServletContextAware" target="org.springframework.beans.factory.Aware" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.filter.GenericFilterBean" target="org.springframework.web.context.ServletContextAware" relationship="REALIZATION">
+      <point x="0.0" y="-226.5" />
+      <point x="233.0" y="340.0" />
+      <point x="13.0" y="340.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="org.springframework.context.EnvironmentAware" target="org.springframework.beans.factory.Aware" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="893.0" y="80.0" />
+      <point x="13.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.filter.OncePerRequestFilter" target="org.springframework.web.filter.GenericFilterBean" relationship="GENERALIZATION">
+      <point x="0.0" y="-153.5" />
+      <point x="0.0" y="226.5" />
+    </edge>
+    <edge source="org.springframework.web.filter.GenericFilterBean" target="org.springframework.beans.factory.InitializingBean" relationship="REALIZATION">
+      <point x="0.0" y="-226.5" />
+      <point x="233.0" y="340.0" />
+      <point x="773.0" y="340.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="spring.security.login.auth.api.infra.security.SecurityFilter" target="org.springframework.web.filter.OncePerRequestFilter" relationship="GENERALIZATION">
+      <point x="111.25" y="-56.5" />
+      <point x="224.25" y="1420.0" />
+      <point x="233.0" y="1420.0" />
+      <point x="0.0" y="153.5" />
+    </edge>
+    <edge source="org.springframework.web.filter.GenericFilterBean" target="org.springframework.beans.factory.BeanNameAware" relationship="REALIZATION">
+      <point x="0.0" y="-226.5" />
+      <point x="233.0" y="340.0" />
+      <point x="153.0" y="340.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="org.springframework.web.filter.GenericFilterBean" target="org.springframework.core.env.EnvironmentCapable" relationship="REALIZATION">
+      <point x="0.0" y="-226.5" />
+      <point x="233.0" y="340.0" />
+      <point x="633.0" y="340.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="org.springframework.web.filter.GenericFilterBean" target="org.springframework.beans.factory.DisposableBean" relationship="REALIZATION">
+      <point x="0.0" y="-226.5" />
+      <point x="233.0" y="340.0" />
+      <point x="1013.0" y="340.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.3205531112507857" showDependencies="true" x="484.8421568627448" y="560.3999999999999" />
+  <SelectedNodes>
+    <node>spring.security.login.auth.api.infra.security.SecurityFilter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
