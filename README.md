@@ -1,9 +1,9 @@
-## **Spring-security**
+# Spring-security
 Projeto de Spring Security de Programação Orientada a Objetos.
 O Spring Security é um poderoso framework de segurança para aplicações Java. Ele fornece recursos abrangentes para autenticação, autorização, proteção contra ataques comuns, como CSRF e XSS, e integração com sistemas de autenticação externos, como LDAP e OAuth. 
 
 
-# Realizando requisições no Insomnia:
+**Realizando requisições no Insomnia:**
 
 - POST http://localhost:8080/auth/register
 JSON: 
@@ -24,7 +24,7 @@ JSON:
 
 } 
 
-# Alunos: 
+**Alunos:**  
 	Beatriz Diogo de Almeida 
  	Joel Rodrigues Alves 
   	Laís de Campos Teixeira 
