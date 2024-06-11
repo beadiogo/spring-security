@@ -6,8 +6,7 @@ O Spring Security é um poderoso framework de segurança para aplicações Java.
 **Realizando requisições no Insomnia:**
 
 - POST http://localhost:8080/auth/register
-JSON:
- 
+JSON: 
 {
 	"name": "Beatriz",
 	"email": "teste@gmail.com",
@@ -25,8 +24,8 @@ JSON:
 } 
 
 **Alunos:**  
-	Beatriz Diogo de Almeida 
- 	Joel Rodrigues Alves 
-  	Laís de Campos Teixeira 
-   	Luísa Lion Perina 
-    	Tiago dos Santos Souza 
+	Beatriz Diogo de Almeida  
+ 	Joel Rodrigues Alves  
+  	Laís de Campos Teixeira   
+   	Luísa Lion Perina   
+    	Tiago dos Santos Souza   
