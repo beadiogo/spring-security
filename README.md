@@ -9,8 +9,11 @@ O Spring Security é um poderoso framework de segurança para aplicações Java.
 JSON: 
 {
 	"name": "Beatriz",
+
 	"email": "teste@gmail.com",
+
 	"password": "123456789"
+
 }
 
 - GET http://localhost:8080/user
