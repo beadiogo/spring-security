@@ -21,7 +21,6 @@ JSON:
 {
 	"email": "teste@gmail.com",
 	"password": "123456789"
-
 } 
 
 **Alunos:**  
